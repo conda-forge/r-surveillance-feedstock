@@ -38,6 +38,7 @@ requirements:
     - r-nlme
     - r-polycub >=0.8.0
     - r-sp >=1.0_15
+    - r-spatstat >=2.0
     - r-spatstat.geom
     - r-xtable >=1.7_0
   run:
@@ -49,6 +50,7 @@ requirements:
     - r-nlme
     - r-polycub >=0.8.0
     - r-sp >=1.0_15
+    - r-spatstat >=2.0
     - r-spatstat.geom
     - r-xtable >=1.7_0
 
