@@ -1,4 +1,4 @@
-{% set version = "1.21.0" %}
+{% set version = "1.21.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/surveillance_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/surveillance/surveillance_{{ version }}.tar.gz
-  sha256: 76f90a58dc4decad04af490c3c3b10dd6aadc80fe00c80f78bcf31925b77659e
+  sha256: 1fc932563431ef7f125b38aad8cc5d2377006ad4a999949b6b79947b43b263a8
 
 build:
   merge_build_host: true  # [win]
