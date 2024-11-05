@@ -1,4 +1,4 @@
-{% set version = "1.24.0" %}
+{% set version = "1.24.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/surveillance_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/surveillance/surveillance_{{ version }}.tar.gz
-  sha256: cf7e10371df6c9729b22ed6b405a7dfdd00b9382f1e7ed5b7f78b88903131053
+  sha256: 2afc4df82840c6711a665b06f1ae1140e8ea702fb662d02a55815ab46edaf273
 
 build:
   number: 0
